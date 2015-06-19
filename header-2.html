@@ -38,17 +38,6 @@
 			$("a[rel^='prettyPhoto']").prettyPhoto();
 		});
 	</script>
-
-    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css"></script>
-    <script>
-      $(function() {
-        window.prettyPrint && prettyPrint()
-        $(document).on('click', '.yamm .dropdown-menu', function(e) {
-          e.stopPropagation()
-        })
-      })
-    </script>
-
 </head>
 
 <body>
@@ -109,7 +98,15 @@
 						<a href="./index.html" class="navbar-brand logo"><img src="img/logo.png" alt=""></a>
 					</div>
 					<div id="navbar-collapse-1" class="navbar-collapse collapse">
-						<ul class="nav navbar-nav">
+						<!-- Search Form -->
+						<form action="/" class="b-search-form">
+							<div class="input-wrap">
+								<input type="text" placeholder="Search..">
+							</div>
+						</form>
+						<!-- End Search Form -->
+
+						<ul class="nav navbar-nav pull-right">
 							<!-- Classic list -->
 							<li class="dropdown yamm-fw yamm-fw5">
 								<a href="./index.html" data-toggle="dropdown" class="dropdown-toggle active">Home</a>
@@ -294,13 +291,6 @@
 								</ul>
 							</li>
 						</ul>
-						<!-- Search Form -->
-						<form action="/" class="b-search-form">
-							<div class="input-wrap">
-								<input type="text" placeholder="Search..">
-							</div>
-						</form>
-						<!-- End Search Form -->
 					</div>
 				</div>
 			</div>
@@ -466,7 +456,7 @@
 	<div class="content content-featured">
 		<div class="container layout">
 			<p>
-				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium... <a href="#">More<i class="icon-chevron-sign-right" style="margin: 0 0 0 7px;"></i></a>
+				 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium... <a href="#">More<i class="icon-chevron-sign-right" style="margin: 0 0 0 7px;"></i></a>
 			</p>
 		</div>
 	</div>

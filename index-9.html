@@ -17,11 +17,10 @@
 	<link rel="stylesheet" href="css/yamm/yamm.css">
 	<link rel="stylesheet" href="css/color-scheme/blue.css">
 	<link rel="stylesheet" href="css/responsive.css">
-
+	
 	<!-- Base JS -->
 	<script src="js/jquery-1.9.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery-ui.js"></script>
 	<script src="js/jquery.sticky.js"></script>
 	<script src="js/stellar.js"></script>
 	<script src="js/main.js"></script>
@@ -29,7 +28,7 @@
 	<!-- Revolution Slider -->
 	<script src="js/jquery.themepunch.plugins.min.js"></script>
 	<script src="js/jquery.themepunch.revolution.min.js"></script>
-	<script src="js/revolution-slider-options.js"></script>
+	<script src="js/revolution-slider-options2.js"></script>
 	
 	<!-- Prety photo -->
 	<script src="js/jquery.prettyPhoto.js"></script>
@@ -38,23 +37,12 @@
 			$("a[rel^='prettyPhoto']").prettyPhoto();
 		});
 	</script>
-
-    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css"></script>
-    <script>
-      $(function() {
-        window.prettyPrint && prettyPrint()
-        $(document).on('click', '.yamm .dropdown-menu', function(e) {
-          e.stopPropagation()
-        })
-      })
-    </script>
-
 </head>
 
 <body>
 
 <div class="main">
-
+	
 	<!-- TOP BAR 
 	============================================= -->
 	<div class="b-top-bar">
@@ -312,345 +300,349 @@
 	<!-- REVOLUTION SLIDER
 	============================================= -->
 	<div class="fullwidthbanner-container top-shadow">
-		<div class="fullwidthbanner">
+		<div class="fullwidthbanner2">
 			<ul>
-				<!-- Slide 1 -->
-				<li data-masterspeed="300" data-slotamount="2" data-transition="fade">
-				<!-- Main Image -->
-				<img alt="" src="img/slider/Slider-8.jpg">
-				<!-- End Main Image -->
-				<!-- Captions -->
-				<div class="tp-caption sfr" data-easing="easeOutExpo" data-speed="700" data-start="600" data-x="540" data-y="39">
-					<img alt="" src="img/slider/coffee.png">
-				</div>
-				<div class="tp-caption sfb" data-easing="easeInOutBack" data-speed="300" data-start="1500" data-x="730" data-y="110">
-					<img alt="" src="img/slider/coffee-thumb-up.png">
-				</div>
-				<div class="tp-caption sfb" data-easing="easeInOutBack" data-speed="700" data-start="800" data-x="460" data-y="210">
-					<img alt="" src="img/slider/spoon.png">
-				</div>
-				<div class="tp-caption m-3-2em m-text-black m-semibold sft" data-easing="easeOutExpo" data-speed="700" data-start="1400" data-x="40" data-y="130">
-					<span>Corporis Suscipit Ratione</span>
-				</div>
-				<div class="tp-caption m-1-8em m-text-black sfr" data-easing="easeOutExpo" data-speed="700" data-start="1600" data-x="40" data-y="185">
-					<span>Animate Anything You Want!</span>
-				</div>
-				<div class="tp-caption sfb" data-easing="easeInOutExpo" data-speed="700" data-start="1700" data-x="40" data-y="233">
-					<a class="btn" href="#">Read More</a>
-				</div>
-				<div class="tp-caption sfb" data-easing="easeInOutExpo" data-speed="700" data-start="1800" data-x="165" data-y="233">
-					<a class="btn colored" href="#">Get Started</a>
-				</div>
-				<!-- End Captions -->
+				<li data-transition="fade" data-slotamount="13" data-masterspeed="300" >
+					<img src="img/slider/custom-header-bg.jpg" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+					<div class="tp-caption sft stb visible-lg"
+						data-x="72"
+						data-y="180"
+						data-speed="300"
+						data-start="1000"
+						data-easing="easeOutExpo"			data-elementdelay="0.1" 
+						data-endelementdelay="0.1" 
+						data-endspeed="300" 
+						><img src="img/slider/slide-title-border.png" alt=""></div>
+					<div class="tp-caption caption top-label stl lfl" 
+						data-x="122" 
+						data-y="180"  
+						data-speed="300" 
+						data-start="500" 
+						data-easing="easeOutExpo" 
+						data-splitin="none" 
+						data-splitout="none" 
+						data-elementdelay="0.1" 
+						data-endelementdelay="0.1" 
+						data-endspeed="300" 
+						style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">DO YOU NEED A NEW 
+					</div>
+					<!-- LAYER NR. 3 -->
+					<div class="tp-caption caption visible-lg stb sft" 
+						data-x="371" 
+						data-y="180"  
+						data-speed="300" 
+						data-start="1000" 
+						data-easing="easeOutExpo" 
+						data-elementdelay="0.1" 
+						data-endelementdelay="0.1" 
+						data-endspeed="300" 
+						style="z-index: 7;"><img src="img/slider/slide-title-border.png" alt=""> 
+					</div>
+					<!-- LAYER NR. 4 -->
+					<div class="tp-caption caption main-label stb sft" 
+						data-x="30" 
+						data-y="210"  
+						data-speed="300" 
+						data-start="1500" 
+						data-easing="easeOutExpo" 
+						data-splitin="none" 
+						data-splitout="none" 
+						data-elementdelay="0.1" 
+						data-endelementdelay="0.1" 
+						data-endspeed="300" 
+						style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">WEB DESIGN? 
+					</div>
+					<!-- LAYER NR. 5 -->
+					<div class="tp-caption caption bottom-label stb sft" 
+						data-x="80" 
+						data-y="280"  
+						data-speed="500" 
+						data-start="2000" 
+						data-easing="easeOutExpo" 
+						data-splitin="none" 
+						data-splitout="none" 
+						data-elementdelay="0.1" 
+						data-endelementdelay="0.1" 
+						data-endspeed="500" 
+						style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">Check out our options and features. 
+					</div>
+					<!-- LAYER NR. 6 -->
+					<div class="tp-caption caption customin customout" 
+						data-x="right" data-hoffset="0" 
+						data-y="bottom" data-voffset="0" 
+						data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:5;scaleY:5;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
+						data-speed="800" 
+						data-start="700" 
+						data-easing="Power4.easeOut" 
+						data-elementdelay="0.1" 
+						data-endelementdelay="0.1" 
+						data-endspeed="500" 
+						data-endeasing="Power4.easeIn" 
+						style="z-index: 10;"><img src="img/slider/mobile-device.png"  style="position:relative;bottom:-10px;" alt=""> 
+					</div>
 				</li>
-				<!-- End Slide 1 -->
-				<!-- Slide 2 -->
-				<li data-masterspeed="300" data-slotamount="3" data-transition="fade">
-				<!-- Main Image -->
-				<img alt="" src="img/slider/Slider-8.jpg">
-				<!-- End Main Image -->
-				<!-- Captions -->
-				<div class="tp-caption sfr" data-easing="easeOutExpo" data-speed="700" data-start="600" data-x="640" data-y="9">
-					<img alt="" src="img/slider/women.png">
-				</div>
-				<div class="tp-caption sfb" data-easing="easeOutExpo" data-speed="700" data-start="900" data-x="369" data-y="327">
-					<img alt="" src="img/slider/graph-2.png">
-				</div>
-				<div class="tp-caption sfb" data-easing="easeOutExpo" data-speed="700" data-start="1000" data-x="433" data-y="298">
-					<img alt="" src="img/slider/graph-3.png">
-				</div>
-				<div class="tp-caption sfb" data-easing="easeOutExpo" data-speed="700" data-start="1100" data-x="511" data-y="261">
-					<img alt="" src="img/slider/graph-4.png">
-				</div>
-				<div class="tp-caption sfb" data-easing="easeOutExpo" data-speed="700" data-start="1200" data-x="579" data-y="236">
-					<img alt="" src="img/slider/graph-5.png">
-				</div>
-				<div class="tp-caption sfb" data-easing="easeOutExpo" data-speed="700" data-start="1300" data-x="651" data-y="197">
-					<img alt="" src="img/slider/graph-6.png">
-				</div>
-				<div class="tp-caption sfb" data-easing="easeOutExpo" data-speed="1700" data-start="1700" data-x="360" data-y="24">
-					<img alt="" src="img/slider/graph-7.png">
-				</div>
-				<div class="tp-caption fade" data-easing="easeOutExpo" data-speed="700" data-start="800" data-x="369" data-y="387">
-					<img alt="" src="img/slider/graph-1.png">
-				</div>
-				<div class="tp-caption m-3-2em m-text-black m-semibold sft" data-easing="easeOutExpo" data-speed="700" data-start="1400" data-x="40" data-y="130">
-					<span>Vitae Dicta Suscipit</span>
-				</div>
-				<div class="tp-caption m-1-8em m-text-black sfr" data-easing="easeOutExpo" data-speed="700" data-start="1600" data-x="40" data-y="185">
-					<span>Animate Anything You Want!</span>
-				</div>
-				<div class="tp-caption sfb" data-easing="easeInOutExpo" data-speed="700" data-start="1700" data-x="40" data-y="233">
-					<a class="btn" href="#">Read More</a>
-				</div>
-				<div class="tp-caption sfb" data-easing="easeInOutExpo" data-speed="700" data-start="1800" data-x="165" data-y="233">
-					<a class="btn colored" href="#">Get Started</a>
-				</div>
-				<!-- End Captions -->
+				
+				<li data-transition="fade" data-slotamount="13" data-masterspeed="300"  data-saveperformance="off" >
+					<!-- MAIN IMAGE -->
+					<img src="img/slider/custom-header-bg.jpg"  alt="custom-header-bg"  data-bgposition="left top" data-bgfit="cover" data-bgrepeat="no-repeat">
+					<!-- LAYERS -->
+					<!-- LAYER NR. 1 -->
+					<div class="tp-caption customin customout" 
+						data-x="center" data-hoffset="0" 
+						data-y="center" data-voffset="0" 
+						data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:5;scaleY:5;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
+						data-speed="800" 
+						data-start="700" 
+						data-easing="Power4.easeOut" 
+						data-elementdelay="0.1" 
+						data-endelementdelay="0.1" 
+						data-endspeed="500" 
+						data-endeasing="Power4.easeIn" 
+						style="z-index: 5;"><img src="img/slider/slide-concept-draft.png" alt=""> 
+					</div>
+					<!-- LAYER NR. 2 -->
+					<div class="tp-caption customin customout tp-videolayer" 
+						data-x="center" data-hoffset="0" 
+						data-y="center" data-voffset="-6" 
+						data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:5;scaleY:5;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
+						data-speed="600" 
+						data-start="100" 
+						data-easing="Power4.easeOut" 
+						data-elementdelay="0.1" 
+						data-endelementdelay="0.1" 
+						data-vimeoid="80318195" data-videowidth="640" data-videoheight="360" data-videoattributes="title=0&byline=0&portrait=0;api=1" data-endspeed="500" 
+						data-endeasing="Power4.easeOut" 
+						data-autoplay="false" 
+						data-autoplayonlyfirsttime="false" 
+						style="z-index: 6;"> 
+					</div>
 				</li>
-				<!-- End Slide 2 -->
-				<!-- Slide 3 -->
-				<li data-masterspeed="300" data-slotamount="4" data-transition="fade">
-				<!-- Main Image -->
-				<img alt="" src="img/slider/Slider-8.jpg">
-				<!-- End Main Image -->
-				<!-- Captions -->
-				<div class="tp-caption sfr" data-easing="easeOutExpo" data-speed="700" data-start="600" data-x="670" data-y="34">
-					<img alt="" src="img/slider/men.png">
-				</div>
-				<div class="tp-caption fade" data-easing="easeOutExpo" data-speed="700" data-start="1300" data-x="670" data-y="34">
-					<img alt="" src="img/slider/men-2.png">
-				</div>
-				<div class="tp-caption sft" data-easing="easeInOutBack" data-speed="700" data-start="900" data-x="526" data-y="23">
-					<img alt="" src="img/slider/lightbulb.png">
-				</div>
-				<div class="tp-caption fade" data-easing="easeOutExpo" data-speed="700" data-start="1300" data-x="526" data-y="23">
-					<img alt="" src="img/slider/lightbulb-2.png">
-				</div>
-				<div class="tp-caption m-3-2em m-text-black m-semibold sft" data-easing="easeOutExpo" data-speed="700" data-start="1400" data-x="40" data-y="130">
-					<span>Architecto Velit Beatae</span>
-				</div>
-				<div class="tp-caption m-1-8em m-text-black sfr" data-easing="easeOutExpo" data-speed="700" data-start="1600" data-x="40" data-y="185">
-					<span>Animate Anything You Want!</span>
-				</div>
-				<div class="tp-caption sfb" data-easing="easeInOutExpo" data-speed="700" data-start="1700" data-x="40" data-y="233">
-					<a class="btn" href="#">Read More</a>
-				</div>
-				<div class="tp-caption sfb" data-easing="easeInOutExpo" data-speed="700" data-start="1800" data-x="165" data-y="233">
-					<a class="btn colored" href="#">Get Started</a>
-				</div>
-				<!-- End Captions -->
-				</li>
-				<!-- End Slide 3 -->
-				<!-- Slide 4 -->
-				<li data-masterspeed="300" data-slotamount="1" data-transition="fade">
-				<!-- Main Image -->
-				<img alt="" src="img/slider/Slider-8.jpg">
-				<!-- End Main Image -->
-				<!-- Captions -->
-				<div class="tp-caption m-3-2em m-text-black m-semibold sft" data-easing="easeOutExpo" data-speed="700" data-start="1400" data-x="40" data-y="130">
-					<span>Tempora Incidunt</span>
-				</div>
-				<div class="tp-caption m-1-8em m-text-black sfr" data-easing="easeOutExpo" data-speed="700" data-start="1600" data-x="40" data-y="185">
-					<span>Animate Anything You Want!</span>
-				</div>
-				<div class="tp-caption sfb" data-easing="easeInOutExpo" data-speed="700" data-start="1800" data-x="40" data-y="233">
-					<a class="btn" href="#">Read More</a>
-				</div>
-				<div class="tp-caption sfb" data-easing="easeInOutExpo" data-speed="700" data-start="1900" data-x="165" data-y="233">
-					<a class="btn colored" href="#">Get Started</a>
-				</div>
-				<div class="tp-caption sfr" data-easing="easeOutExpo" data-speed="700" data-start="600" data-x="533" data-y="18">
-					<img alt="" src="img/slider/imac.png">
-				</div>
-				<div class="tp-caption sfr" data-easing="easeOutExpo" data-speed="700" data-start="800" data-x="703" data-y="152">
-					<img alt="" src="img/slider/macbook.png">
-				</div>
-				<div class="tp-caption sfr" data-easing="easeOutExpo" data-speed="700" data-start="1000" data-x="473" data-y="172">
-					<img alt="" src="img/slider/ipad.png">
-				</div>
-				<div class="tp-caption sfr" data-easing="easeOutExpo" data-speed="700" data-start="1200" data-x="616" data-y="258">
-					<img alt="" src="img/slider/iphone.png">
-				</div>
-				<!-- End Captions -->
-				</li>
-				<!-- End Slide 4 -->				
 			</ul>
 		</div>
 	</div>
 	<!-- END REVOLUTION SLIDER
 	============================================= -->
 
-	<!-- FEATURED CONTENT
-	============================================= -->
-	<div class="content content-featured">
-		<div class="container layout">
-			<p>
-				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium... <a href="#">More<i class="icon-chevron-sign-right" style="margin: 0 0 0 7px;"></i></a>
-			</p>
-		</div>
-	</div>
-	<!-- END FEATURED CONTENT
-	============================================= -->
-
 	<!-- CONTENT 
 	============================================= -->
-	<div class="content shortcodes gray-content" style="padding-bottom: 10px;">
-		<div class="container layout" style="padding-bottom: 1px;">
-			<div class="row">
-				<div class="row-item col-md-4">
-					<!-- Icon Box -->
-					<div class="icon-box medium" style="margin-bottom: 25px;">
-						<i class="icon-html5 medium light"></i>
-						<h4><a href="#" class="dark-link">Exerci Tation Ullamcorper</a></h4>
-						<p>
-							 Sed ut perspiciatis, unde omnis iste natus error sit voluptatem.
-						</p>
-						<p><a href="#" class="btn colored" style="margin-bottom: 0;">About Us</a></p>
-					</div>
-					<!-- End Icon Box -->
-				</div>
-				<div class="row-item col-md-4">
-					<!-- Icon Box -->
-					<div class="icon-box medium" style="margin-bottom: 25px;">
-						<i class="icon-css3 medium light"></i>
-						<h4><a href="#" class="dark-link">Duis Autem Vel Eum</a></h4>
-						<p>
-							 Adipisci velit, sed quia non numquam eius modi tempora incidunt.
-						</p>
-						<p><a href="#" class="btn colored" style="margin-bottom: 0;">Services</a></p>
-					</div>
-					<!-- End Icon Box -->
-				</div>
-				<div class="row-item col-md-4">
-					<!-- Icon Box -->
-					<div class="icon-box medium" style="margin-bottom: 25px;">
-						<i class="icon-magic medium light"></i>
-						<h4><a href="#" class="dark-link">Qui Blandit Praesent</a></h4>
-						<p>
-							 Vel eum iure reprehenderit, qui in ea voluptate velit esse quam.
-						</p>
-						<p><a href="#" class="btn colored" style="margin-bottom: 0;">Our Work</a></p>
-					</div>
-					<!-- End Icon Box -->
-				</div>
+	<div class="content gray-content">
+		<div class="container layout no-pad-bottom">
+			<div class="row-item col-md-8">
+				<h1 class="centered">Boson: WordPress&nbsp;<a href="http://themeforest.net/item/boson-responsive-multipurpose-html5-template/11043414">#1</a>&nbsp;Theme</h1>
+				<p class="centered">Boson&nbsp;is the <strong><span class="fusion-tooltip tooltip-shortcode" style="color: #2eafbb" title="">most complete and trusted</span></strong>&nbsp;WordPress theme in&nbsp;the market.</p>
+			</div>
+			<div class="row-item">
+				<a href="http://themeforest.net/item/boson-responsive-multipurpose-html5-template/11043414" class="btn big turquoise"><i class="icon-shopping-cart"></i>Buy Boson!</a>
 			</div>
 		</div>
 	</div>
-
-	<div class="content">
+	
+	<div class="content shortcodes">
 		<div class="container layout">
-			<h3 class="lined margin-20">Recent Work</h3>
-			<div class="row port b-works">
-				<div class="row-item col-md-4 identity photography tehnology">
-					<div class="work">
-						<a href="#" class="work-image">
-							<img src="img/port/smiling.jpg" alt="">
-							<div class="link-overlay icon-chevron-right"></div>
-						</a>
-						<a href="#" class="work-name">Smiling</a>
-						<div class="tags">
-							 Photography, Tehnology
-						</div>
-					</div>
-				</div>
-				<div class="row-item col-md-4 photography webdesign">
-					<div class="work">
-						<a href="img/port/surfer-big.jpg" rel="prettyPhoto" class="work-image">
-							<img src="img/port/surfer.jpg" alt="">
-							<div class="link-overlay icon-search"></div>
-						</a>
-						<a href="#" class="work-name">Surfer</a>
-						<div class="tags">
-							 Photography, Webdesign
-						</div>
-					</div>
-				</div>
-				<div class="row-item col-md-4 identity">
-					<div class="work">
-						<a href="http://vimeo.com/67500403" rel="prettyPhoto" class="work-image">
-							<img src="img/port/architecture.jpg" alt="">
-							<div class="link-overlay icon-play"></div>
-						</a>
-						<a href="#" class="work-name">Architecture</a>
-						<div class="tags">
-							 Identity
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			<div class="gap" style="height: 10px;"></div>
-			
 			<div class="row">
-				<div class="row-item col-md-6">
-					<h3 class="lined margin-20">Duis Autem Vel Eum</h3>
-					<div class="b-tabs">
-						<ul class="tabs-nav">
-							<li class="active"><span><i class="icon-thumbs-up"></i>Company</span></li>
-							<li><span><i class="icon-money"></i>Careers</span></li>
-							<li><span><i class="icon-bullhorn"></i>Blogs</span></li>
-						</ul>
-						<div class="tabs-content">
-							<div class="tab active">
-								<p>
-									 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sem mauris, aliquam vel interdum in, faucibus non libero. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.
-								</p>
-							</div>
-							<div class="tab">
-								<p>
-									 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sem mauris, aliquam vel interdum in, faucibus non libero. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.
-								</p>
-							</div>
-							<div class="tab">
-								<p>
-									 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sem mauris, aliquam vel interdum in, faucibus non libero. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.
-								</p>
-							</div>
-						</div>
+				<div class="row-item col-md-4">
+					<!-- Icon Box -->
+					<div class="b-service">
+						<a href="#"><i class="icon-html5 light"></i></a>
+						<h3 class="centered"><a href="#" class="dark-link">Page Builder</a></h3>
+						<p class="centered">
+							Sed ut perspiciatis, unde omnis iste natus error sit voluptatem.
+						</p>
 					</div>
-					<div class="gap" style="height: 20px;"></div>
+					<!-- End Icon Box -->
 				</div>
-				<div class="row-item col-md-6">
-					<h3 class="lined margin-20">Voluptate velit esse</h3>
-					<ul class="b-list iconok m-circle">
-						<li>Asunt in anim uis aute irure dolor in reprehenderit</li>
-						<li>Excepteur sint occaecat cupidatat non proident, sunt in anim</li>
-						<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-						<li>Irure dolor in reprehenderit in voluptate velit esse cillum</li>
-						<li>Tempora incidunt, ut labore et dolore occaecat cupidatat non proident</li>
-						<li>Asunt in anim uis aute irure dolor in reprehenderit</li>
-					</ul>
-					<div class="gap" style="height: 20px;"></div>
-				</div>
-			</div>
-			
-			<div class="gap" style="height: 10px;"></div>
-			
-			<!-- Promo Box -->
-			<div class="b-promo margin-30">
-				<a href="#" class="btn big colored">Buy Now!</a>
-				<h3>Reprehenderit In Voluptate Velit Esse</h3>
-				 In anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
-			</div>
-			<!-- End Promo Box -->
-			
-			<div class="gap" style="height: 10px;"></div>
-
-			<h3 class="lined margin-20">Our Clients</h3>
-			<div class="b-clients" style="margin-bottom: 10px;">
-				<div class="client tooltips">
-					<div class="tooltips-data">
-						 Sed ut perspiciatis
+				<div class="row-item col-md-4">
+					<!-- Icon Box -->
+					<div class="b-service">
+						<a href="#"><i class="icon-css3 light"></i></a>
+						<h3 class="centered"><a href="#" class="dark-link">Theme Options</a></h3>
+						<p class="centered">
+							Adipisci velit, sed quia non numquam eius modi tempora incidunt.
+						</p>
 					</div>
-					<a href="#"><img src="img/elements/logo-1.jpg" alt=""></a>
+					<!-- End Icon Box -->
 				</div>
-				<div class="client tooltips">
-					<div class="tooltips-data">
-						 Unde omnis iste natus
+				<div class="row-item col-md-4">
+					<!-- Icon Box -->
+					<div class="b-service">
+						<a href="#"><i class="icon-magic light"></i></a>
+						<h3 class="centered"><a href="#" class="dark-link">Free Support & Updates</a></h3>
+						<p class="centered">
+							Vel eum iure reprehenderit, qui in ea voluptate velit esse quam.
+						</p>
 					</div>
-					<a href="#"><img src="img/elements/logo-2.jpg" alt=""></a>
-				</div>
-				<div class="client tooltips">
-					<div class="tooltips-data">
-						 Quae ab illo inventore
-					</div>
-					<a href="#"><img src="img/elements/logo-3.jpg" alt=""></a>
-				</div>
-				<div class="client tooltips">
-					<div class="tooltips-data">
-						 Nisi ut aliquid ex ea
-					</div>
-					<a href="#"><img src="img/elements/logo-4.jpg" alt=""></a>
-				</div>
-				<div class="client tooltips">
-					<div class="tooltips-data">
-						 Quo voluptas nulla
-					</div>
-					<a href="#"><img src="img/elements/logo-5.jpg" alt=""></a>
+					<!-- End Icon Box -->
 				</div>
 			</div>
 		</div>
+		
+		<div class="shortcodes parallax" data-stellar-background-ratio="0.5" style="background: url(img/parallax/3.jpg)">
+			<div class="container layout">
+				<div class="row">
+					<div class="row-item col-md-12">
+						<div class="aligncenter_image"><img src="img/parallax/parallax-text.png" alt=""></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="shortcodes">
+			<div class="container layout">
+				<div class="row">
+					<div class="row-item col-md-12">
+						<div align="center">
+							<p><font color="Black" size="100px">Bos</font><font color="#2eafbb" size="100px">on:</font></p>
+						</div>
+						<div class="clear"></div>
+						<h3 class="centered">We Are Dedicated To Our Users &amp; Product</h3>
+						<p class="centered no-margin-bottom">Simply put, we thrive on making Boson&nbsp;the <span class="fusion-tooltip tooltip-shortcode" style="color: #2eafbb" title=""><strong>most complete and trusted</strong></span> wordpress theme on the marke</p>
+					</div>
+				</div>
+				<hr class="dashed">
+				<hr class="dashed">
+				<div class="row">
+					<div class="row-item col-md-8">
+						<p class="fusion-one-third one_third fusion-column"><span class="dropcap with-bg">L</span> uisque blandit dolor risus, sed dapibus dui facilisis sed. Donec eu porta elit. Aliquam porta sollicitudin ante, ac fermentum orci mattis et. Phasellus ac nibh eleifend, sagittis purus nec, elementum massa. Quisque tincidunt sapien a sem porttitor, id convallis dolor pharetra. Donec tempor cursus facilisis. Ut eu elementum arcu, vel hendrerit nisi. Cras sed euismod nibh, a adipiscing nunserts.</p>
+						<p class="fusion-one-third one_third fusion-column"><span class="dropcap simple">L</span> uisque blandit dolor risus, sed dapibus dui facilisis sed. Donec eu porta elit. Aliquam porta sollicitudin ante, ac fermentum orci mattis et. Phasellus ac nibh eleifend, sagittis purus nec, elementum massa. Quisque tincidunt sapien a sem porttitor, id convallis dolor pharetra. Donec tempor cursus facilisis. Ut eu elementum arcu, vel hendrerit nisi. Cras sed euismod nibh, a adipiscing nunserts.</p>
+					</div>
+					<div class="row-item col-md-3">
+						<div class="accordion">
+							<div class="b-accordion">
+								<div class="b-spoiler m-alt active">
+									<div class="spoiler-title active">
+										<span>Our Company Mission</span>
+									</div>
+									<div class="spoiler-content">
+										<p>Working Hard!!!</p>
+									</div>
+								</div>
+								<div class="b-spoiler m-alt">
+									<div class="spoiler-title">
+										<span>The Boson Promise</span>
+									</div>
+									<div class="spoiler-content">
+										<p>Fugiat dapibus, tellus ac cursus commodo, mauris sit condim eser ntumsi nibh, uum a justo vitaes amet risus amets un. Posi sectetut amet fermntum orem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia nons.</p>
+									</div>
+								</div>
+								<div class="b-spoiler m-alt">
+									<div class="spoiler-title">
+										<span>The Boson Philosophy</span>
+									</div>
+									<div class="spoiler-content">
+										<p>Fugiat dapibus, tellus ac cursus commodo, mauris sit condim eser ntumsi nibh, uum a justo vitaes amet risus amets un. Posi sectetut amet fermntum orem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia nons.</p>
+									</div>
+								</div>
+								<div class="b-spoiler m-alt">
+									<div class="spoiler-title">
+										<span>Free Support</span>
+									</div>
+									<div class="spoiler-content">
+										<p>Fugiat dapibus, tellus ac cursus commodo, mauris sit condim eser ntumsi nibh, uum a justo vitaes amet risus amets un. Posi sectetut amet fermntum orem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia nons.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- PARALLAX CONTENT 
+		============================================= -->
+		<div class="parallax" data-stellar-background-ratio="0.5" style="background: url(img/parallax/1.jpg);">
+			<div class="container layout">
+				<div class="row">
+					<div class="row-item col-md-12">
+						<h2 class="centered no-margin-bottom">Video <span style="color: #2eafbb">Embedding&nbsp;Easily</span> Through Shortcode</h2>
+					</div>
+
+					<div class="col-md-12">
+						<hr class="dashed">
+						<iframe src="http://www.youtube.com/embed/XSGBVzeBUbk?feature=oembed" allowfullscreen="" frameborder="0" height="439" width="780"></iframe>
+						<p style="text-align: left"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- PARALLAX CONTENT 
+		============================================= -->
+
+		<div class="container layout">
+			<div class="row">
+				<div class="row-item col-md-6">
+					<h3 class="lined margin-20">Amazing Tools To Build Awesome Websites</h3>
+					<ul class="b-list iconok m-circle">
+						<li>Fully responsive so your content will always look good on any screen size</li>
+						<li>Awesome sliders give you the opportunity to showcase your content</li>
+						<li>Advanced theme options panel to easily customize your website</li>
+						<li>Multiple layout options for home pages, portfolio and blog section</li>
+						<li>Amazing Page Builder Modules loaded with easy customization</li>
+						<li>We offer free support because we care about your site as much as you.</li>				
+					</ul>
+				</div>
+				<div class="row-item col-md-6">
+					<p><a href="img/responsive.png"><img class="aligncenter" src="img/responsive.png" alt="responsive" height="300" width="474"></a></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="parallax" data-stellar-background-ratio="0.5" style="background: url(img/parallax/4.jpg)">
+			<div class="container layout">
+				<h1 style="text-align: center"><span style="color: #ffffff">What Our Buyer's&nbsp;are saying?</span>&nbsp;<span style="color: #2eafbb">Let's See!</span></h1>
+				<p style="text-align: center"><span style="color: #ffffff">We love our users and are fully dedicated to keeping their trust by offering amazing updates and <strong>outstanding</strong> after sale support!</span></p>
+
+				<div class="testimonials">
+					<div class="row">
+						<div class="row-item col-md-4">
+							<div class="b-recall">
+								<div class="recall-text">
+									I bought this theme and i would like to recommend it to every one interested in building a website without knowledge of php or html. It is very convenient and the customer service is very reactive. I will say it in French "Bravo" for this work!           
+								</div>
+								<div class="recall-author">
+									<span>eliantalj <a href="" class="link"></a></span>
+								</div>
+							</div>
+						</div>
+						<div class="row-item col-md-4">
+							<div class="b-recall">
+								<div class="recall-text">
+									Amazing theme and top class support, as I'm a beginner, Luke helped me above and beyond and was more than patient, his responses were quick and he has a genuine care for you to enjoy and move forward with your theme!.. highly recommended theme and author!
+								</div>
+								<div class="recall-author">
+									<span>linabareno <a href="" class="link"></a></span>
+								</div>
+							</div>
+						</div>
+						<div class="row-item col-md-4 column_last">
+							<div class="b-recall">
+								<div class="recall-text">
+									Let me say something. You have an amazing theme and amazing/awesome support. They helped me on weekend. This is what I call an "extra mile" in customer relationship. So I gave 5 stars for the theme and if I could, I'd give 10 stars for support.           
+								</div>
+								<div class="recall-author">
+									<span>yogesh131 <a href="" class="link"></a></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>  
+		<div class="container layout">
+			<div class="row">
+				<div class="row-item col-md-12">
+					<div class="call-action">
+						<div class="b-promo margin-20">
+							<a href="http://themeforest.net/item/boson-responsive-multipurpose-html5-template/11043414" class="btn big colored">Purchase Now</a>
+							<h3>Boson is the ultimate multi-purpose wordpress theme!</h3>
+							Loaded with awesome features, premium sliders, unlimited colors, advanced theme options &amp; much more!
+						</div>
+					</div>
+				</div>
+			</div> 
+		</div>  
 	</div>
 	<!-- END CONTENT 
 	============================================= -->
@@ -765,7 +757,7 @@
 	</div>
 	<!-- END FOOTER 
 	============================================= -->
-	
+
 </div>
 <!-- END MAIN 
 ============================================= -->

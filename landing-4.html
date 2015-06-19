@@ -17,11 +17,10 @@
 	<link rel="stylesheet" href="css/yamm/yamm.css">
 	<link rel="stylesheet" href="css/color-scheme/blue.css">
 	<link rel="stylesheet" href="css/responsive.css">
-
+	
 	<!-- Base JS -->
 	<script src="js/jquery-1.9.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery-ui.js"></script>
 	<script src="js/jquery.sticky.js"></script>
 	<script src="js/stellar.js"></script>
 	<script src="js/main.js"></script>
@@ -29,7 +28,7 @@
 	<!-- Revolution Slider -->
 	<script src="js/jquery.themepunch.plugins.min.js"></script>
 	<script src="js/jquery.themepunch.revolution.min.js"></script>
-	<script src="js/revolution-slider-options.js"></script>
+	<script src="js/revolution-slider-options1.js"></script>
 	
 	<!-- Prety photo -->
 	<script src="js/jquery.prettyPhoto.js"></script>
@@ -38,17 +37,6 @@
 			$("a[rel^='prettyPhoto']").prettyPhoto();
 		});
 	</script>
-
-    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css"></script>
-    <script>
-      $(function() {
-        window.prettyPrint && prettyPrint()
-        $(document).on('click', '.yamm .dropdown-menu', function(e) {
-          e.stopPropagation()
-        })
-      })
-    </script>
-
 </head>
 
 <body>
@@ -112,7 +100,7 @@
 						<ul class="nav navbar-nav">
 							<!-- Classic list -->
 							<li class="dropdown yamm-fw yamm-fw5">
-								<a href="./index.html" data-toggle="dropdown" class="dropdown-toggle active">Home</a>
+								<a href="./index.html" data-toggle="dropdown" class="dropdown-toggle">Home</a>
 								<ul class="dropdown-menu">
 									<li>
 										<div class="yamm-content">
@@ -163,7 +151,7 @@
 								</ul>
 							</li>
 							<li class="dropdown">
-								<a href="#" data-toggle="dropdown" class="dropdown-toggle">Landing Pages</a>
+								<a href="#" data-toggle="dropdown" class="dropdown-toggle active">Landing Pages</a>
 								<ul class="dropdown-menu yamm-sm">
 									<li><a href="landing-1.html">Fashion - NEW</a></li>
 									<li><a href="landing-2.html">Portfolio - NEW</a></li>
@@ -309,228 +297,92 @@
 	<!-- END HEADER 
 	============================================= -->
 
-	<!-- REVOLUTION SLIDER
-	============================================= -->
-	<div class="fullwidthbanner-container top-shadow">
-		<div class="fullwidthbanner">
-			<ul>
-				<!-- Slide 1 -->
-				<li data-masterspeed="300" data-slotamount="2" data-transition="fade">
-				<!-- Main Image -->
-				<img alt="" src="img/slider/Slider-8.jpg">
-				<!-- End Main Image -->
-				<!-- Captions -->
-				<div class="tp-caption sfr" data-easing="easeOutExpo" data-speed="700" data-start="600" data-x="540" data-y="39">
-					<img alt="" src="img/slider/coffee.png">
-				</div>
-				<div class="tp-caption sfb" data-easing="easeInOutBack" data-speed="300" data-start="1500" data-x="730" data-y="110">
-					<img alt="" src="img/slider/coffee-thumb-up.png">
-				</div>
-				<div class="tp-caption sfb" data-easing="easeInOutBack" data-speed="700" data-start="800" data-x="460" data-y="210">
-					<img alt="" src="img/slider/spoon.png">
-				</div>
-				<div class="tp-caption m-3-2em m-text-black m-semibold sft" data-easing="easeOutExpo" data-speed="700" data-start="1400" data-x="40" data-y="130">
-					<span>Corporis Suscipit Ratione</span>
-				</div>
-				<div class="tp-caption m-1-8em m-text-black sfr" data-easing="easeOutExpo" data-speed="700" data-start="1600" data-x="40" data-y="185">
-					<span>Animate Anything You Want!</span>
-				</div>
-				<div class="tp-caption sfb" data-easing="easeInOutExpo" data-speed="700" data-start="1700" data-x="40" data-y="233">
-					<a class="btn" href="#">Read More</a>
-				</div>
-				<div class="tp-caption sfb" data-easing="easeInOutExpo" data-speed="700" data-start="1800" data-x="165" data-y="233">
-					<a class="btn colored" href="#">Get Started</a>
-				</div>
-				<!-- End Captions -->
-				</li>
-				<!-- End Slide 1 -->
-				<!-- Slide 2 -->
-				<li data-masterspeed="300" data-slotamount="3" data-transition="fade">
-				<!-- Main Image -->
-				<img alt="" src="img/slider/Slider-8.jpg">
-				<!-- End Main Image -->
-				<!-- Captions -->
-				<div class="tp-caption sfr" data-easing="easeOutExpo" data-speed="700" data-start="600" data-x="640" data-y="9">
-					<img alt="" src="img/slider/women.png">
-				</div>
-				<div class="tp-caption sfb" data-easing="easeOutExpo" data-speed="700" data-start="900" data-x="369" data-y="327">
-					<img alt="" src="img/slider/graph-2.png">
-				</div>
-				<div class="tp-caption sfb" data-easing="easeOutExpo" data-speed="700" data-start="1000" data-x="433" data-y="298">
-					<img alt="" src="img/slider/graph-3.png">
-				</div>
-				<div class="tp-caption sfb" data-easing="easeOutExpo" data-speed="700" data-start="1100" data-x="511" data-y="261">
-					<img alt="" src="img/slider/graph-4.png">
-				</div>
-				<div class="tp-caption sfb" data-easing="easeOutExpo" data-speed="700" data-start="1200" data-x="579" data-y="236">
-					<img alt="" src="img/slider/graph-5.png">
-				</div>
-				<div class="tp-caption sfb" data-easing="easeOutExpo" data-speed="700" data-start="1300" data-x="651" data-y="197">
-					<img alt="" src="img/slider/graph-6.png">
-				</div>
-				<div class="tp-caption sfb" data-easing="easeOutExpo" data-speed="1700" data-start="1700" data-x="360" data-y="24">
-					<img alt="" src="img/slider/graph-7.png">
-				</div>
-				<div class="tp-caption fade" data-easing="easeOutExpo" data-speed="700" data-start="800" data-x="369" data-y="387">
-					<img alt="" src="img/slider/graph-1.png">
-				</div>
-				<div class="tp-caption m-3-2em m-text-black m-semibold sft" data-easing="easeOutExpo" data-speed="700" data-start="1400" data-x="40" data-y="130">
-					<span>Vitae Dicta Suscipit</span>
-				</div>
-				<div class="tp-caption m-1-8em m-text-black sfr" data-easing="easeOutExpo" data-speed="700" data-start="1600" data-x="40" data-y="185">
-					<span>Animate Anything You Want!</span>
-				</div>
-				<div class="tp-caption sfb" data-easing="easeInOutExpo" data-speed="700" data-start="1700" data-x="40" data-y="233">
-					<a class="btn" href="#">Read More</a>
-				</div>
-				<div class="tp-caption sfb" data-easing="easeInOutExpo" data-speed="700" data-start="1800" data-x="165" data-y="233">
-					<a class="btn colored" href="#">Get Started</a>
-				</div>
-				<!-- End Captions -->
-				</li>
-				<!-- End Slide 2 -->
-				<!-- Slide 3 -->
-				<li data-masterspeed="300" data-slotamount="4" data-transition="fade">
-				<!-- Main Image -->
-				<img alt="" src="img/slider/Slider-8.jpg">
-				<!-- End Main Image -->
-				<!-- Captions -->
-				<div class="tp-caption sfr" data-easing="easeOutExpo" data-speed="700" data-start="600" data-x="670" data-y="34">
-					<img alt="" src="img/slider/men.png">
-				</div>
-				<div class="tp-caption fade" data-easing="easeOutExpo" data-speed="700" data-start="1300" data-x="670" data-y="34">
-					<img alt="" src="img/slider/men-2.png">
-				</div>
-				<div class="tp-caption sft" data-easing="easeInOutBack" data-speed="700" data-start="900" data-x="526" data-y="23">
-					<img alt="" src="img/slider/lightbulb.png">
-				</div>
-				<div class="tp-caption fade" data-easing="easeOutExpo" data-speed="700" data-start="1300" data-x="526" data-y="23">
-					<img alt="" src="img/slider/lightbulb-2.png">
-				</div>
-				<div class="tp-caption m-3-2em m-text-black m-semibold sft" data-easing="easeOutExpo" data-speed="700" data-start="1400" data-x="40" data-y="130">
-					<span>Architecto Velit Beatae</span>
-				</div>
-				<div class="tp-caption m-1-8em m-text-black sfr" data-easing="easeOutExpo" data-speed="700" data-start="1600" data-x="40" data-y="185">
-					<span>Animate Anything You Want!</span>
-				</div>
-				<div class="tp-caption sfb" data-easing="easeInOutExpo" data-speed="700" data-start="1700" data-x="40" data-y="233">
-					<a class="btn" href="#">Read More</a>
-				</div>
-				<div class="tp-caption sfb" data-easing="easeInOutExpo" data-speed="700" data-start="1800" data-x="165" data-y="233">
-					<a class="btn colored" href="#">Get Started</a>
-				</div>
-				<!-- End Captions -->
-				</li>
-				<!-- End Slide 3 -->
-				<!-- Slide 4 -->
-				<li data-masterspeed="300" data-slotamount="1" data-transition="fade">
-				<!-- Main Image -->
-				<img alt="" src="img/slider/Slider-8.jpg">
-				<!-- End Main Image -->
-				<!-- Captions -->
-				<div class="tp-caption m-3-2em m-text-black m-semibold sft" data-easing="easeOutExpo" data-speed="700" data-start="1400" data-x="40" data-y="130">
-					<span>Tempora Incidunt</span>
-				</div>
-				<div class="tp-caption m-1-8em m-text-black sfr" data-easing="easeOutExpo" data-speed="700" data-start="1600" data-x="40" data-y="185">
-					<span>Animate Anything You Want!</span>
-				</div>
-				<div class="tp-caption sfb" data-easing="easeInOutExpo" data-speed="700" data-start="1800" data-x="40" data-y="233">
-					<a class="btn" href="#">Read More</a>
-				</div>
-				<div class="tp-caption sfb" data-easing="easeInOutExpo" data-speed="700" data-start="1900" data-x="165" data-y="233">
-					<a class="btn colored" href="#">Get Started</a>
-				</div>
-				<div class="tp-caption sfr" data-easing="easeOutExpo" data-speed="700" data-start="600" data-x="533" data-y="18">
-					<img alt="" src="img/slider/imac.png">
-				</div>
-				<div class="tp-caption sfr" data-easing="easeOutExpo" data-speed="700" data-start="800" data-x="703" data-y="152">
-					<img alt="" src="img/slider/macbook.png">
-				</div>
-				<div class="tp-caption sfr" data-easing="easeOutExpo" data-speed="700" data-start="1000" data-x="473" data-y="172">
-					<img alt="" src="img/slider/ipad.png">
-				</div>
-				<div class="tp-caption sfr" data-easing="easeOutExpo" data-speed="700" data-start="1200" data-x="616" data-y="258">
-					<img alt="" src="img/slider/iphone.png">
-				</div>
-				<!-- End Captions -->
-				</li>
-				<!-- End Slide 4 -->				
-			</ul>
-		</div>
-	</div>
-	<!-- END REVOLUTION SLIDER
-	============================================= -->
-
-	<!-- FEATURED CONTENT
-	============================================= -->
-	<div class="content content-featured">
-		<div class="container layout">
-			<p>
-				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium... <a href="#">More<i class="icon-chevron-sign-right" style="margin: 0 0 0 7px;"></i></a>
-			</p>
-		</div>
-	</div>
-	<!-- END FEATURED CONTENT
-	============================================= -->
-
 	<!-- CONTENT 
 	============================================= -->
-	<div class="content shortcodes gray-content" style="padding-bottom: 10px;">
-		<div class="container layout" style="padding-bottom: 1px;">
-			<div class="row">
-				<div class="row-item col-md-4">
-					<!-- Icon Box -->
-					<div class="icon-box medium" style="margin-bottom: 25px;">
-						<i class="icon-html5 medium light"></i>
-						<h4><a href="#" class="dark-link">Exerci Tation Ullamcorper</a></h4>
-						<p>
-							 Sed ut perspiciatis, unde omnis iste natus error sit voluptatem.
-						</p>
-						<p><a href="#" class="btn colored" style="margin-bottom: 0;">About Us</a></p>
+	<div class="content">
+		<div class="shortcodes">
+			<div class="container layout">
+				<div class="row">
+					<div class="row-item col-md-12">
+						<h1 class="centered semibold uppercase">WE ARE . Boson</h1>
+						<p class="centered p-20" style="color: #6e6e73;">dolor sit amet, consectetur adipiscing elit</p>
+						<div class="gap" style="height:20px;"></div>
+						<div class="row">
+							<div class="row-item col-md-4">
+								<div class="b-service">
+									<a href=""><i class="icon-html5 light "></i></a>
+									<h3 class="centered"><a href="" class="dark-link">RESPONSIVE DESIGN</a></h3>
+									<p class="centered">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque  in
+									</p>
+								</div>
+							</div>
+							<div class="row-item col-md-4">
+								<div class="b-service">
+									<a href=""><i class="icon-code-fork light "></i></a>
+									<h3 class="centered"><a href="" class="dark-link">WELL CODING</a></h3>
+									<p class="centered">
+										Lorem ipsum dolor sit amet, cem mauris, aliquam vel interdum in
+									</p>
+								</div>
+							</div>
+							<div class="row-item col-md-4">
+								<div class="b-service">
+									<a href=""><i class="icon-magic light "></i></a>
+									<h3 class="centered"><a href="" class="dark-link">SEO FRIENDLY</a></h3>
+									<p class="centered">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sem maurisdum in
+									</p>
+								</div>
+							</div>
+						</div>
 					</div>
-					<!-- End Icon Box -->
-				</div>
-				<div class="row-item col-md-4">
-					<!-- Icon Box -->
-					<div class="icon-box medium" style="margin-bottom: 25px;">
-						<i class="icon-css3 medium light"></i>
-						<h4><a href="#" class="dark-link">Duis Autem Vel Eum</a></h4>
-						<p>
-							 Adipisci velit, sed quia non numquam eius modi tempora incidunt.
-						</p>
-						<p><a href="#" class="btn colored" style="margin-bottom: 0;">Services</a></p>
-					</div>
-					<!-- End Icon Box -->
-				</div>
-				<div class="row-item col-md-4">
-					<!-- Icon Box -->
-					<div class="icon-box medium" style="margin-bottom: 25px;">
-						<i class="icon-magic medium light"></i>
-						<h4><a href="#" class="dark-link">Qui Blandit Praesent</a></h4>
-						<p>
-							 Vel eum iure reprehenderit, qui in ea voluptate velit esse quam.
-						</p>
-						<p><a href="#" class="btn colored" style="margin-bottom: 0;">Our Work</a></p>
-					</div>
-					<!-- End Icon Box -->
 				</div>
 			</div>
 		</div>
-	</div>
-
-	<div class="content">
+	
+		<div class="shortcodes content gray-content">
+			<div class="container layout no-pad-bottom">
+				<div class="row">
+					<div class="row-item col-md-12">
+						<div id="builder-module-541274a86edec" class="module module-heading">
+							<h1 class="centered semibold ">AWESOME . FEATURES</h1>
+						</div>
+						<div id="builder-module-54128579c786f" class="module">
+							<div class="margin-30"></div>
+						</div>
+					</div>
+					<div class="row-item col-md-6">
+						<p><a href="img/tablet_boson.png"><img class="alignright size-full wp-image-1107" src="img/tablet_boson.png" alt="tablet_boson" height="400" width="475"></a></p>
+					</div>
+					<div class="row-item col-md-6">
+						<h3>Unlimited Page Layouts</h3>
+						<p>Nullam enim nunc, sollicitudin eget rhoncus non, iaculis quis metus. Nunc urna diam, blandit nec ipsum eu,</p>
+						<h3>Super Easy Admin Panel</h3>
+						<p>Nullam enim nunc, sollicitudin eget rhoncus non, iaculis quis metus. Nunc urna</p>
+						<h3>Drag &amp; Drop&nbsp;Page Builder</h3>
+						<p>Nullam enim nunc, sollicitudin eget rhoncus non, iaculis quis metus. Nunc urna diam, blandit nec ipsum eu, mollis convallis lectus. Vestibulum sapien mauris,</p>
+						<h3>One Click Demo Install</h3>
+						<p>Nullam enim nunc, sollicitudin eget rhoncus</p>
+						<a href="http://themeforest.net/item/boson-responsive-multipurpose-html5-template/11043414" class="btn big pink"><i class="icon-shopping-cart"></i>Buy This Theme</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
 		<div class="container layout">
-			<h3 class="lined margin-20">Recent Work</h3>
+			<h1 class="centered semibold ">Recent Portfolio</h1>
+			<p class="centered p-20" style="color: #6e6e73;">Our Best Work for Our Clients</p>
 			<div class="row port b-works">
 				<div class="row-item col-md-4 identity photography tehnology">
 					<div class="work">
-						<a href="#" class="work-image">
-							<img src="img/port/smiling.jpg" alt="">
-							<div class="link-overlay icon-chevron-right"></div>
+						<a href="http://vimeo.com/67500403" rel="prettyPhoto" class="work-image">
+							<img src="img/port/spring-flowers.jpg" alt="">
+							<div class="link-overlay icon-play"></div>
 						</a>
 						<a href="#" class="work-name">Smiling</a>
 						<div class="tags">
-							 Photography, Tehnology
+							Identity, Photography, Tehnology 
 						</div>
 					</div>
 				</div>
@@ -542,7 +394,7 @@
 						</a>
 						<a href="#" class="work-name">Surfer</a>
 						<div class="tags">
-							 Photography, Webdesign
+							Photography, Webdesign
 						</div>
 					</div>
 				</div>
@@ -554,100 +406,271 @@
 						</a>
 						<a href="#" class="work-name">Architecture</a>
 						<div class="tags">
-							 Identity
+							Identity
+						</div>
+					</div>
+				</div>
+				<div class="row-item col-md-4 tehnology">
+					<div class="work">
+						<a href="img/port/yacht-sailing-big.jpg" rel="prettyPhoto" class="work-image">
+							<img src="img/port/yacht-sailing.jpg" alt="">
+							<div class="link-overlay icon-search"></div>
+						</a>
+						<a href="#" class="work-name">Yacht Sailing</a>
+						<div class="tags">
+							Tehnology
+						</div>
+					</div>
+				</div>
+				<div class="row-item col-md-4 photography">
+					<div class="work">
+						<a href="http://vimeo.com/67500403" rel="prettyPhoto" class="work-image">
+							<img src="img/port/golf.jpg" alt="">
+							<div class="link-overlay icon-play"></div>
+						</a>
+						<a href="#" class="work-name">Golf</a>
+						<div class="tags">
+							Photography
+						</div>
+					</div>
+				</div>
+				<div class="row-item col-md-4 tehnology">
+					<div class="work">
+						<a href="img/port/spring-flowers-big.jpg" rel="prettyPhoto" class="work-image">
+							<img src="img/port/spring-flowers.jpg" alt="">
+							<div class="link-overlay icon-search"></div>
+						</a>
+						<a href="#" class="work-name">Spring Flowers</a>
+						<div class="tags">
+							Tehnology
+						</div>
+					</div>
+				</div>
+				<div class="row-item col-md-4 identity">
+					<div class="work">
+						<a href="img/port/work-from-home-big.jpg" rel="prettyPhoto" class="work-image">
+							<img src="img/port/work-from-home.jpg" alt="">
+							<div class="link-overlay icon-search"></div>
+						</a>
+						<a href="#" class="work-name">Work From Home</a>
+						<div class="tags">
+							Identity, Photography, Tehnology 						
+						</div>
+					</div>
+				</div>
+				<div class="row-item col-md-4 tehnology">
+					<div class="work">
+						<a href="img/port/music-night-club-big.jpg" rel="prettyPhoto" class="work-image">
+							<img src="img/port/music-night-club.jpg" alt="">
+							<div class="link-overlay icon-search"></div>
+						</a>
+						<a href="#" class="work-name">Music Night Club</a>
+						<div class="tags">
+							Web Design 						
 						</div>
 					</div>
 				</div>
 			</div>
-			
-			<div class="gap" style="height: 10px;"></div>
-			
+		</div>
+		
+		<div class="container layout">
 			<div class="row">
+				<h1 class="centered semibold ">Who We Are</h1>
+				<p class="centered p-20" style="color: #6e6e73;">auctor quis magna sed, pretium vestibulum es</p>
+				<div class="gap" style="height:30px;"></div>
 				<div class="row-item col-md-6">
-					<h3 class="lined margin-20">Duis Autem Vel Eum</h3>
-					<div class="b-tabs">
-						<ul class="tabs-nav">
-							<li class="active"><span><i class="icon-thumbs-up"></i>Company</span></li>
-							<li><span><i class="icon-money"></i>Careers</span></li>
-							<li><span><i class="icon-bullhorn"></i>Blogs</span></li>
-						</ul>
-						<div class="tabs-content">
-							<div class="tab active">
-								<p>
-									 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sem mauris, aliquam vel interdum in, faucibus non libero. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.
-								</p>
+					<h3 class="lined margin-20">About Us</h3>
+					<p>Nullam enim nunc, sollicitudin eget rhoncus non, iaculis quis metus. Nunc urna diam, blandit nec ipsum eu, mollis convallis lectus. Vestibulum sapien mauris, auctor quis magna sed, pretium vestibulum est. Mauris vitae tristique urna. Nullam enim nunc, sollicitudin eget rhoncus non, iaculis quis metus. Nunc urna diam, blandit nec ipsum eu, mollis convallis lectus.</p>
+					<p>Vestibulum sapien mauris, auctor quis magna sed, pretium vestibulum est. Mauris vitae tristique urna.</p>
+					<div class="gap" style="height: 10px;">
+					</div>
+				</div>
+				<div class="row-item col-md-6">
+					<h3 class="lined margin-20">Progress Bars</h3>
+					<!-- Progress Bars -->
+					<div class="element-wrap">
+						<!-- Item 1 -->
+						<div class="b-progress-bar" data-capacity="100" data-value="98">
+							<div class="progress-label">
+								Development 98%
 							</div>
-							<div class="tab">
-								<p>
-									 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sem mauris, aliquam vel interdum in, faucibus non libero. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.
-								</p>
-							</div>
-							<div class="tab">
-								<p>
-									 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sem mauris, aliquam vel interdum in, faucibus non libero. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum. Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.
-								</p>
+							<div class="progress-scale">
+								<div class="progress-line">
+								</div>
 							</div>
 						</div>
+						<!-- End Item 1 -->
+						<!-- Item 2 -->
+						<div class="b-progress-bar" data-capacity="100" data-value="75">
+							<div class="progress-label">
+								Project Management 75%
+							</div>
+							<div class="progress-scale">
+								<div class="progress-line m-2">
+								</div>
+							</div>
+						</div>
+						<!-- End Item 2 -->
+						<!-- Item 3 -->
+						<div class="b-progress-bar" data-capacity="100" data-value="80">
+							<div class="progress-label">
+								Marketing 80%
+							</div>
+							<div class="progress-scale">
+								<div class="progress-line m-3">
+								</div>
+							</div>
+						</div>
+						<!-- End Item 3 -->
 					</div>
-					<div class="gap" style="height: 20px;"></div>
-				</div>
-				<div class="row-item col-md-6">
-					<h3 class="lined margin-20">Voluptate velit esse</h3>
-					<ul class="b-list iconok m-circle">
-						<li>Asunt in anim uis aute irure dolor in reprehenderit</li>
-						<li>Excepteur sint occaecat cupidatat non proident, sunt in anim</li>
-						<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-						<li>Irure dolor in reprehenderit in voluptate velit esse cillum</li>
-						<li>Tempora incidunt, ut labore et dolore occaecat cupidatat non proident</li>
-						<li>Asunt in anim uis aute irure dolor in reprehenderit</li>
-					</ul>
-					<div class="gap" style="height: 20px;"></div>
+					<!-- End Progress Bars -->
+					<div class="gap" style="height: 10px;"></div>
 				</div>
 			</div>
-			
-			<div class="gap" style="height: 10px;"></div>
-			
-			<!-- Promo Box -->
-			<div class="b-promo margin-30">
-				<a href="#" class="btn big colored">Buy Now!</a>
-				<h3>Reprehenderit In Voluptate Velit Esse</h3>
-				 In anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+		</div>
+		
+		<div class="shortcodes">
+			<div class="container layout">
+				<div class="row">
+					<div class="row-item col-md-12">
+						<h3 style="text-align: center"></h3>
+						<h2 style="text-align: center">What Are You Thinking... Buy One of The Best WordPress Theme</h2>
+						<p>&nbsp;</p>
+						<p style="text-align: center"><a href="http://themeforest.net/item/boson-responsive-multipurpose-html5-template/11043414" class="btn big pink"><i class="icon-shopping-cart"></i>Buy This Theme</a></p>
+					</div>
+				</div>
 			</div>
-			<!-- End Promo Box -->
-			
-			<div class="gap" style="height: 10px;"></div>
-
-			<h3 class="lined margin-20">Our Clients</h3>
-			<div class="b-clients" style="margin-bottom: 10px;">
-				<div class="client tooltips">
-					<div class="tooltips-data">
-						 Sed ut perspiciatis
+		</div>
+		
+		<div class="shortcodes parallax" data-stellar-background-ratio="0.5" style="background: rgb(85, 144, 146);">
+			<div class="container layout">
+				<div class="row">
+					<div class="row-item col-md-12">
+						<div class="margin-50"></div>
+						<div class="testimonials">
+							<div class="row">
+								<div class="row-item col-md-6">
+									<div class="b-quote">
+										<img class="quote-ava" src="img/team/team-7.jpg" alt="">
+										<div class="quote-text">
+											Nullam enim nunc, sollicitudin eget rhoncus non, iaculis quis metus. Nunc urna diam, blandit nec ipsum eu, mollis convallis lectus. Vestibulum sapien mauris, auctor quis magna sed, pretium vestibulum est. 
+											<div class="quote-author-name">Kristina</div>
+											<div class="quote-author-position">
+												Marketing Manager <a href="#" class="link">Senior Developer</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row-item col-md-6">
+									<div class="b-quote">
+										<img class="quote-ava" src="img/team/team-8.jpg" alt="">
+										<div class="quote-text">
+											Nullam enim nunc, sollicitudin eget rhoncus non, iaculis quis metus. Nunc urna diam, blandit nec ipsum eu, mollis convallis lectus. Vestibulum sapien mauris, auctor quis magna sed, pretium vestibulum est. 
+											<div class="quote-author-name">Richard</div>
+											<div class="quote-author-position">
+												CEO <a href="" class="link"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="margin-50"></div>
 					</div>
-					<a href="#"><img src="img/elements/logo-1.jpg" alt=""></a>
 				</div>
-				<div class="client tooltips">
-					<div class="tooltips-data">
-						 Unde omnis iste natus
+			</div>
+		</div>
+		
+		<div class="shortcodes">
+			<div class="container layout">
+				<h1 class="centered semibold ">Packages</h1>
+				<div class="row m-tariff-row">
+					<div class="gap" style="height:30px;"></div>
+					<div class="row-item col-md-3">
+						<div class="b-tariff">
+							<div class="tariff-head">
+								<div class="tariff-title">Starter</div>
+								<div class="tariff-price">
+									<span class="tariff-cy">$</span>
+									<span class="tariff-cost">25</span>
+									<span class="tariff-period">/mo</span>
+								</div>
+								<p class="tariff-description">Sed ut perspiciatis unde omnis iste natus.</p>
+							</div>
+							<ul class="tariff-meta">
+								<li><mark class="green strong">FREE</mark> Setup</li>
+								<li><i class="icon-user" style="color: #73ca3f"></i> 3 Active Users</li>
+								<li><i class="icon-plus" style="color: #73ca3f"></i> Additional User is $5/mo</li>
+								<li><i class="icon-lock" style="color: #73ca3f"></i> Unlimited Questions</li>
+								<li><i class="icon-ok" style="color: #73ca3f"></i> Full Data Security</li>
+							</ul>
+							<a class="btn purple tariff-btn" href="#">Start Now!</a>
+						</div>
 					</div>
-					<a href="#"><img src="img/elements/logo-2.jpg" alt=""></a>
-				</div>
-				<div class="client tooltips">
-					<div class="tooltips-data">
-						 Quae ab illo inventore
+					<div class="row-item col-md-3">
+						<div class="b-tariff m-popular">
+							<div class="popular-title m-turquoise"><i class="icon-thumbs-up"></i>Most Popular</div>
+							<div class="tariff-head">
+								<div class="tariff-title">Basic</div>
+								<div class="tariff-price">
+									<span class="tariff-cy">$</span>
+									<span class="tariff-cost">50</span>
+									<span class="tariff-period">/mo</span>
+								</div>
+								<p class="tariff-description">Nemo enim ipsam voluptatem quia voluptas.</p>
+							</div>
+							<ul class="tariff-meta">
+								<li><mark class="green strong">FREE</mark> Setup</li>
+								<li><i class="icon-user" style="color: #73ca3f"></i> 3 Active Users</li>
+								<li><i class="icon-plus" style="color: #73ca3f"></i> Additional User is $5/mo</li>
+								<li><i class="icon-lock" style="color: #73ca3f"></i> Unlimited Questions</li>
+								<li><i class="icon-ok" style="color: #73ca3f"></i> Full Data Security</li>
+							</ul>
+							<a class="btn turquoise tariff-btn" href="#">Start Now!</a>
+						</div>
 					</div>
-					<a href="#"><img src="img/elements/logo-3.jpg" alt=""></a>
-				</div>
-				<div class="client tooltips">
-					<div class="tooltips-data">
-						 Nisi ut aliquid ex ea
+					<div class="row-item col-md-3">
+						<div class="b-tariff">
+							<div class="tariff-head">
+								<div class="tariff-title">Professional</div>
+								<div class="tariff-price">
+									<span class="tariff-cy">$</span>
+									<span class="tariff-cost">75</span>
+									<span class="tariff-period">/mo</span>
+								</div>
+								<p class="tariff-description">Neque porro quisquam est, qui dolorem ipsum.</p>
+							</div>
+							<ul class="tariff-meta">
+								<li><mark class="green strong">FREE</mark> Setup</li>
+								<li><i class="icon-user" style="color: #73ca3f"></i> 3 Active Users</li>
+								<li><i class="icon-plus" style="color: #73ca3f"></i> Additional User is $5/mo</li>
+								<li><i class="icon-lock" style="color: #73ca3f"></i> Unlimited Questions</li>
+								<li><i class="icon-ok" style="color: #73ca3f"></i> Full Data Security</li>
+							</ul>
+							<a class="btn blue tariff-btn" href="#">Start Now!</a>
+						</div>
 					</div>
-					<a href="#"><img src="img/elements/logo-4.jpg" alt=""></a>
-				</div>
-				<div class="client tooltips">
-					<div class="tooltips-data">
-						 Quo voluptas nulla
+					<div class="row-item col-md-3">
+						<div class="b-tariff">
+							<div class="tariff-head">
+								<div class="tariff-title">Unlimited</div>
+								<div class="tariff-price">
+									<span class="tariff-cy">$</span>
+									<span class="tariff-cost">150</span>
+									<span class="tariff-period">/mo</span>
+								</div>
+								<p class="tariff-description">Quis autem vel eum iure reprehenderit qui.</p>
+							</div>
+							<ul class="tariff-meta">
+								<li><mark class="green strong">FREE</mark> Setup</li>
+								<li><i class="icon-user" style="color: #73ca3f"></i> 3 Active Users</li>
+								<li><i class="icon-plus" style="color: #73ca3f"></i> Additional User is $5/mo</li>
+								<li><i class="icon-lock" style="color: #73ca3f"></i> Unlimited Questions</li>
+								<li><i class="icon-ok" style="color: #73ca3f"></i> Full Data Security</li>
+							</ul>
+							<a class="btn purple tariff-btn" href="#">Start Now!</a>
+						</div>
 					</div>
-					<a href="#"><img src="img/elements/logo-5.jpg" alt=""></a>
 				</div>
 			</div>
 		</div>
@@ -662,19 +685,14 @@
 		<div class="b-widgets">
 			<div class="container layout">
 				<div class="row">
-					<!-- Links -->
+					<!-- About -->
 					<div class="row-item col-md-3">
-						<h3>Links</h3>
-						<ul class="b-list just-links m-dark">
-							<li><a href="#">Voluptas Assumenda</a></li>
-							<li><a href="#">Repudiandae Sint</a></li>
-							<li><a href="#">Perferendis Doloribus</a></li>
-							<li><a href="#">Maxime Placeat</a></li>
-							<li><a href="#">Quidem Rerum</a></li>
-							<li><a href="#">Occaecati Cupiditate</a></li>
-						</ul>
+						<img src="img/logo.png" alt="" style="margin-bottom: 10px;">
+						<p>
+							 Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+						</p>
 					</div>
-					<!-- End Links -->
+					<!-- End About -->
 					<!-- Latest Tweets -->
 					<div class="row-item col-md-3">
 						<h3>Latest Tweets</h3>
@@ -694,42 +712,47 @@
 						</div>
 					</div>
 					<!-- End Latest Tweets -->
-					<!-- Tag Cloud -->
+					<!-- Latest Project -->
 					<div class="row-item col-md-3">
-						<h3>Popular Tags</h3>
-						<div class="b-tag-cloud m-dark">
-							<a href="#">beach</a>
-							<a href="#">bar</a>
-							<a href="#">blog</a>
-							<a href="#">business</a>
-							<a href="#">coctail</a>
+						<h3>Latest Projects</h3>
+						<div class="latest-project">
+							<div class="latest-project-item">
+								<a href="#"><img src="img/elements/rp-1.jpg" alt=""></a>
+							</div>
+							<div class="latest-project-item">
+								<a href="#"><img src="img/elements/rp-2.jpg" alt=""></a>
+							</div>
+							<div class="latest-project-item">
+								<a href="#"><img src="img/elements/rp-3.jpg" alt=""></a>
+							</div>
+							<div class="latest-project-item">
+								<a href="#"><img src="img/elements/rp-4.jpg" alt=""></a>
+							</div>
+							<div class="latest-project-item">
+								<a href="#"><img src="img/elements/rp-5.jpg" alt=""></a>
+							</div>
+							<div class="latest-project-item">
+								<a href="#"><img src="img/elements/rp-6.jpg" alt=""></a>
+							</div>
 						</div>
 					</div>
-					<!-- End Tag Cloud -->
-					<!-- Contact Form -->
+					<!-- End Latest Project -->
+					<!-- Contact Information -->
 					<div class="row-item col-md-3">
-						<h3>Contact Form</h3>
-						<!-- Success Message -->
-						<div class="form-message"></div>
-						<!-- Form -->
-						<form class="b-form b-contact-form" action="contact.php">
-							<div class="input-wrap m-full-width">
-								<i class="icon-user"></i>
-								<input class="field-name" type="text" placeholder="Name (required)">
-							</div>
-							<div class="input-wrap m-full-width">
-								<i class="icon-envelope"></i>
-								<input class="field-email" type="text" placeholder="E-mail (required)">
-							</div>
-							<div class="textarea-wrap">
-								<i class="icon-pencil"></i>
-								<textarea class="field-comments" placeholder="Message"></textarea>
-							</div>
-							<input class="btn-submit btn colored" type="submit" value="Send">
-						</form>
-						<!-- End Form -->
+						<h3>Contact Information</h3>
+						<!-- Address -->
+						<ul class="b-list b-contact m-dark" style="margin-bottom: 15px;">
+							<li class="contact-address"><i class="icon-map-marker"></i><span>103088. Ut wisi enim ad minim veniam, quis nostrud.</span></li>
+							<li class="contact-mail"><i class="icon-envelope"></i><a href="#">mail@mail.com</a></li>
+							<li class="contact-phone"><i class="icon-phone"></i><span>+1 (229) 991-22-11</span></li>
+							<li class="contact-address"><i class="icon-time"></i><span>Monday-Friday: 9:<sup>00</sup> — 18:<sup>00</sup><br>
+							Saturday: 10:<sup>00</sup> — 17:<sup>00</sup><br>
+							Sunday: closed</span>
+							</li>
+						</ul>
+						<!-- End Address -->
 					</div>
-					<!-- End Contact Form -->
+					<!-- End Contact Information -->
 				</div>
 			</div>
 		</div>
